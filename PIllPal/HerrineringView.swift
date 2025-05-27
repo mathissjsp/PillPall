@@ -18,24 +18,30 @@ struct HerrineringView: View {
                 .ignoresSafeArea()
 
             VStack(spacing: 20) {
-                Text("Herinnering instellen")
-                    .font(.title)
-                    .foregroundColor(.purple)
-                    .multilineTextAlignment(.center)
-                    .padding(.vertical, 20)
-                    .padding(.horizontal, 30)
+                VStack{
+                    Text("Herinnering instellen")
+                        .font(.title)
+                        .foregroundColor(.purple)
+                        .multilineTextAlignment(.center)
+                        .padding(.vertical, 20)
+                       
+                        
+                        
+                    
+                    Text("stel hier in hoelaat je elke dag een herinnering wil krijgen om de pil te nemen")
+                        .font(.caption)
+                        .foregroundColor(.gray)
+                        .multilineTextAlignment(.center)
+                        
+                    
+                }.padding()
                     .background(Color.white)
                     .overlay(
                         RoundedRectangle(cornerRadius: 20)
                             .stroke(Color.gray.opacity(0.4), lineWidth: 2)
                     )
                     .cornerRadius(20)
-                
-                Text("stel hier in hoelaat je elke dag een herinnering wil krijgen om de pil te nemen")
-                    .font(.caption)
-                    .foregroundColor(.gray)
-                    .multilineTextAlignment(.center)
-                    .padding(.top)
+               
                 
                 
 

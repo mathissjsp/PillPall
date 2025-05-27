@@ -22,12 +22,20 @@ struct HomeView: View {
                     
                     
                     
-                    Text("Welkom bij PillPal bij deze app kan je een dagelijkse herinnering instellen om de anticonceptie pil te nemen")
-                        .font(.title2)
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(.purple)
-                        .padding(40)
-                        .background(Color.white)
+                    VStack{
+                        Text("Welkom bij PillPal")
+                            
+                            .font(.title2)
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.purple)
+                            .padding()
+                        Text("de ultieme app om dagelijks de anticonceptie pil inname bij te houden")
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.gray)
+                        
+                            
+                    }.padding()
+                    .background(Color.white)
                         .overlay(
                             RoundedRectangle(cornerRadius: 20)
                                 .stroke(Color.gray.opacity(0.4), lineWidth: 2)
@@ -40,7 +48,7 @@ struct HomeView: View {
                             .foregroundColor(.purple)
                             .multilineTextAlignment(.center)
                             .padding(.vertical, 20)
-                            .padding(.horizontal, 30)
+                            .padding(.horizontal, 80)
                             .background(Color.white)
                             .overlay(
                                 RoundedRectangle(cornerRadius: 20)
