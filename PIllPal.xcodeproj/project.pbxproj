@@ -11,6 +11,10 @@
 		6747FBCB2DC0F1D80054A241 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6747FBCA2DC0F1D80054A241 /* ContentView.swift */; };
 		6747FBCD2DC0F1DB0054A241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6747FBCC2DC0F1DB0054A241 /* Assets.xcassets */; };
 		6747FBD02DC0F1DB0054A241 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6747FBCF2DC0F1DB0054A241 /* Preview Assets.xcassets */; };
+		6747FBD92DC0F5C90054A241 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6747FBD82DC0F5C90054A241 /* HomeView.swift */; };
+		6747FBDB2DC0F6250054A241 /* HerrineringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6747FBDA2DC0F6250054A241 /* HerrineringView.swift */; };
+		6747FBDF2DC0F6D80054A241 /* KalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6747FBDE2DC0F6D80054A241 /* KalenderView.swift */; };
+		6787A15A2DD5E27B0061B7E2 /* DagDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787A1592DD5E27B0061B7E2 /* DagDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		6747FBCA2DC0F1D80054A241 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6747FBCC2DC0F1DB0054A241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6747FBCF2DC0F1DB0054A241 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6747FBD82DC0F5C90054A241 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6747FBDA2DC0F6250054A241 /* HerrineringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerrineringView.swift; sourceTree = "<group>"; };
+		6747FBDE2DC0F6D80054A241 /* KalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalenderView.swift; sourceTree = "<group>"; };
+		6787A1592DD5E27B0061B7E2 /* DagDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DagDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		6747FBC72DC0F1D80054A241 /* PIllPal */ = {
 			isa = PBXGroup;
 			children = (
+				6787A1592DD5E27B0061B7E2 /* DagDetailView.swift */,
 				6747FBC82DC0F1D80054A241 /* PIllPalApp.swift */,
 				6747FBCA2DC0F1D80054A241 /* ContentView.swift */,
+				6747FBD82DC0F5C90054A241 /* HomeView.swift */,
+				6747FBDA2DC0F6250054A241 /* HerrineringView.swift */,
+				6747FBDE2DC0F6D80054A241 /* KalenderView.swift */,
 				6747FBCC2DC0F1DB0054A241 /* Assets.xcassets */,
 				6747FBCE2DC0F1DB0054A241 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6787A15A2DD5E27B0061B7E2 /* DagDetailView.swift in Sources */,
 				6747FBCB2DC0F1D80054A241 /* ContentView.swift in Sources */,
 				6747FBC92DC0F1D80054A241 /* PIllPalApp.swift in Sources */,
+				6747FBDB2DC0F6250054A241 /* HerrineringView.swift in Sources */,
+				6747FBD92DC0F5C90054A241 /* HomeView.swift in Sources */,
+				6747FBDF2DC0F6D80054A241 /* KalenderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
